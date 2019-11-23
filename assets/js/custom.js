@@ -432,43 +432,6 @@ googletag.cmd.push(function () {
 //     }
 // });
 
-
-//--------------------------------------------//
-
-// var $site_suggest_ads = document.querySelector('.site_suggest_ads');
-// var $search_in_page = document.querySelector('#search_in_page');
-
-// //seach textbox 
-// $search_in_page.addEventListener('keyup', function (e) {
-//     var ss_keyword = document.getElementById('search_in_page').value;
-//     $site_suggest_ads.innerHTML = '';
-
-//     if (ss_keyword.length > 2) {
-//         document.querySelector('.site_suggest_box').style.display = 'block'
-//         siteSuggest(ss_keyword);
-//     } else {
-//         document.querySelector('.site_suggest_box').style.display = 'none';
-//     }
-// });
-
-// $search_in_page.addEventListener('keydown', function (e) {
-//     if (e.keyCode === 13) {
-//         direct_to_search_link();
-//     }
-// });
-
-// $site_suggest_ads.addEventListener('click', function (e) {
-
-//     if (e.target && e.target.nodeName == 'LI') {
-//         var label = $(this).find("a").text();
-
-//         if (typeof ga != 'undefined')
-//             ga('send', 'event', 'ClickEvent', 'siteAdClicked', label);
-//         window.location = $(this).find("a").attr("href");
-//         // console.log("siteAdClicked")
-//     }
-// });
-
 //--------------------------------------------//
 
 setTimeout(function () {
