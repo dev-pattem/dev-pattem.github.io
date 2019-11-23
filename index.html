@@ -34,20 +34,20 @@
                                     placeholder="Search here.." />
                                 <div class="input-group-btn" id="search_button">
                                     <button class="btn btn-default" id="button-icon">
-                                        <i class="glyph-icon flaticon-search"></i>
+                                        <img src="./assets/images/search1.svg" alt="search"
+                                            aria-describedby="search button">
                                     </button>
                                 </div>
                             </div>
                         </div>
-                        <div class="site_suggest_box" style="display:none;">
-                            <ul class=" site_suggest_ads list-unstyled result-bucket"></ul>
+                        <div class="site_suggest_box">
+                            <ul class="site_suggest_ads list-unstyled result-bucket"></ul>
                         </div>
                     </div>
-                    <div class="search_space_fix"></div>
                 </div>
                 <!--  Site Suggest  -->
             </header>
-            <nav class="indus_sections">
+            <section class="indus_sections">
                 <div class="flex-container">
                     <!--  Recommended Apps  -->
                     <div class="vertical-center-row top-buffer recommended_app_wrap">
@@ -56,16 +56,23 @@
 
                     <!--  TopNews Section  -->
                     <div class="indus_full" id="indus_full">
-
+                        <ul id="all_news" class="top_news_section top-buffer"></ul>
                     </div>
                 </div>
-            </nav>
+            </section>
         </div>
-        <script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async></script>
-        <script src="https://www.googletagmanager.com/gtag/js?id=UA-47795566-10" async></script>
-        <script src="./assets/js/custom.js"></script>
+    </div>
 
-        <!-- <script>dqs('#search_in_page').style.display = 'block'; dqs('#button-icon').style.display = 'block';</script> -->
+    <script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async="async"></script>
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-47795566-10" async="async"></script>
+    <script src="./assets/js/crypto-js-bundle.min.js" defer></script>
+    <script src="./assets/js/custom.js" defer></script>
+
+    <!-- search script init -->
+    <script id="search_siteplug"></script>
+    <script id="site_redirect"></script>
+
+    <!-- <script>dqs('#search_in_page').style.display = 'block'; dqs('#button-icon').style.display = 'block';</script> -->
 </body>
 
 </html>
