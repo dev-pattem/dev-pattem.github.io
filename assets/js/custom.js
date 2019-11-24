@@ -332,8 +332,8 @@ function googleAds() {
             let news__2 = '4';
 
             // news DOM nodes
-            let newsNode_1 = document.getElementById(`top_news_${news__2}`);
-            let newsNode_2 = document.getElementById(`top_news_${news__1}`);
+            let newsNode_1 = document.getElementById(`top_news_${news__1}`);
+            let newsNode_2 = document.getElementById(`top_news_${news__2}`);
 
             // creating Ads DOM nodes -- FIRST
             let ads1 = new DocumentFragment();
